@@ -1,13 +1,15 @@
-
-
-function abrirImagenOriginal() {
-    window.open('assets/img/diploma-scrum.jpg', '_blank');
+function abrirImagenOriginal(imagen) {
+    window.open(imagen, '_blank');
 }
 
-function abrirImagenOriginal() {
-    window.open('assets/img/diploma-hp.jpg', '_blank');
-}
+document.getElementById('imagenScrum').addEventListener('click', function () {
+    abrirImagenOriginal('assets/img/scrum-2023.jpg');
+});
 
-function abrirImagenOriginal() {
-    window.open('assets/img/diploma-sence-2.jpg', '_blank');
-}
+document.getElementById('imagenSence').addEventListener('click', function () {
+    abrirImagenOriginal('assets/img/sence-2023.jpg');
+});
+
+document.getElementById('imagenHP').addEventListener('click', function () {
+    abrirImagenOriginal('assets/img/hp-2023.jpg');
+});
