@@ -1,0 +1,137 @@
+/*CONFIGURACION GLOBAL*/
+* {
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: "cabin";
+}
+
+#logo {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 37px;
+    text-align: center;
+    padding: 3px !important;
+}
+
+#menutop {
+    background-color: #19077b !important;
+}
+
+#navbarNav {
+    font-size: 16px;
+    text-align: left;
+    font-family: "cabin";
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.photo-principal {
+    display: inline-block;
+}
+
+#img-carousel {
+    width: 180px;
+    height: 130px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+#img-small {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 700;
+}
+
+/*proyectos */
+.proyectos {
+    color: #373A3C;
+    font-size: 40px;
+    text-align: center;
+    font-family: "cabin";
+    font-weight: 700;
+}
+
+#title-proyecto-1 {
+    color: #373A3C;
+    font-size: 23px;
+    text-align: left;
+    font-family: "cabin";
+    font-weight: 700;
+}
+
+#proyecto-1 {
+    color: #373A3C;
+    font-size: 16px;
+    text-align: left;
+    font-family: "cabin";
+    font-weight: 400;
+}
+
+#title-proyecto-2 {
+    color: #373A3C;
+    font-size: 23px;
+    text-align: left;
+    font-family: "cabin";
+    font-weight: 700;
+}
+
+#proyecto-2 {
+    color: #373A3C;
+    font-size: 16px;
+    text-align: left;
+    font-family: "cabin";
+    font-weight: 400;
+}
+
+#title-proyecto-3 {
+    color: #373A3C;
+    font-size: 23px;
+    text-align: left;
+    font-family: "cabin";
+    font-weight: 700;
+}
+
+#proyecto-3 {
+    color: #373A3C;
+    font-size: 16px;
+    text-align: left;
+    font-family: "cabin";
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #020521 !important;
+    padding: 30px;
+    color: #FFFFFF !important;
+    text-align: center;
+}
+
+/* Estilos para el botón de WhatsApp flotante */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Joch">
+    <meta name="copyright" content="2023 Copyright of Joch">
+    <meta name="description" content="Portafolio de Jose Cheuquepil">
+    <meta name="keywords" content="joch lab, desarrollo web, soluciones web para emprendimientos, ruby on rails">
+    <script src="https://kit.fontawesome.com/333dc36bd3.js" crossorigin="anonymous"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
+        rel="stylesheet">
+
+    <!--Style CSS by Joch-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CDN Bootstrap CSS v5.1.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>JochLab - Portafolio</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- Menu Superior -->
+        <nav id="menutop" class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <a id="logo" class="navbar-brand" href="#">JOCH</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiencia.html">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portafolio.html">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- experiencia / acordeon -->
+
+    <div class="container">
+        <br>
+        <div class="card mb-3 border-0">
+            <div class="row g-0">
+                <div class="col-md-3">
+                    <img src="assets/img/principal.jpg" class="img-fluid rounded-start" id="img-small"
+                        alt="Bootcamp Ruby on Rails para Emprendientos de Tipo Startup">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="mt-4">2023 - Bootcamp Ruby on Rails para Emprendientos de Tipo Startup</h4>
+                        <h5 class="mt-4">Entidad: Inforcap - SENCE, Chile.</h5>
+                        <p class="mt-4">Desarrollo prototipos funcionales y MVP de aplicaciones web utilizando el
+                            entorno Ruby y metodologías ágiles para responder a oportunidades de negocio.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="card mb-3 border-0">
+            <div class="row g-0">
+                <div class="col-md-3">
+                    <img src="assets/img/diploma-scrum-tb.jpg" alt="Scrum Fundamentals Certified"
+                        class="img-fluid rounded-start thumbnail"
+                        onclick="abrirImagenOriginal('assets/img/diploma-scrum-original.jpg')"
+                        alt="Curso Scrum Fundamentals Certified">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="mt-4">2023 - Scrum Fundamentals Certified</h4>
+                        <h5 class="mt-4">Entidad: Scrum Study, EEUU.</h5>
+                        <p class="mt-4">Curso que permitió adquirir conceptos claves del Scrum Master, con el objetivo
+                            de
+                            desarrollar las habilidades necesarias para el desempeño dentro de acorde a las prácticas
+                            ágiles.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="card mb-3 border-0">
+            <div class="row g-0">
+                <div class="col-md-3">
+                    <img src="assets/img/diploma-sence-tb.jpg" alt="Plataformas de Comercio Electrónico"
+                        class="img-fluid rounded-start thumbnail"
+                        onclick="abrirImagenOriginal('assets/img/diploma-hp.jpg')"
+                        alt="Plataformas de Comercio Electrónico">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="mt-4">2023 - Plataformas de Comercio Electrónico</h4>
+                        <h5 class="mt-4">Entidad: Pymes en Línea, Chile. </h5>
+                        <p class="mt-4">Curso desarrollado por Pymes en Línea con el objetivo de conocer diferentes
+                            Plataformas de Comercio Electrónico.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="assets/img/diploma-hp-tb.jpg" alt="Efectivos Sitios Web de Negocios"
+                            class="img-fluid rounded-start thumbnail"
+                            onclick="abrirImagenOriginal('assets/img/diploma-hp.jpg')"
+                            alt="Curso Efectivos Sitios Web de Negocios por HP Life">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="mt-4">2023 - Efectivos Sitios Web de Negocios.</h4>
+                            <h5 class="mt-4">Entidad: HP Life. </h5>
+                            <p class="mt-4">Curso enfocado al Frond-End, incluyendo cómo utilizar las mejores técnicas
+                                de
+                                desarrollo para diseñar un sitio web empresarial, cómo entender el comportamiento de los
+                                clientes y cómo utilizar las métricas del sitio web de manera efectiva.</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        <!-- Botón de WhatsApp -->
+        <a href="https://api.whatsapp.com/send?phone=56988328260" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <!--Footer-->
+        <footer>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <h5 class="text-left" id="title-footer">2023 © JOCH</h5>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 d-flex justify-content-center justify-content-lg-end">
+
+                            <a class="icon" href="https://github.com/xoshdev" target="_blank" title="Github">
+                                <i class="fab fa-2x mx-2 fa-github-square"></i></a>
+
+                            <a class="icon" href="https://www.linkedin.com/" target="_blank" title="Linkedin">
+                                <i class="fab fa-2x mx-2 fa-linkedin"></i></a>
+
+                            <a class="icon" href="https://twitter.com/" target="_blank" title="Twitter">
+                                <i class="fab fa-2x mx-2 fa-twitter-square"></i></a>
+
+                            <a class="icon" href="https://www.facebook.com/" target="_blank" title="Facebook">
+                                <i class="fab fa-2x mx-2 fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+            <!--CDN Bootstrap v5.1.3 Bundle -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+
+            <!--CDN Jquery 3.7.0 -->
+            <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+                integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+            <!--Script by Joch -->
+            <script src="assets/js/jquery.js"></script>
+
+</body>
+
+</html>
